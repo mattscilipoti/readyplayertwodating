@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
-  get 'homes/index'
-
-  devise_for :users
-
-
+  devise_for :users, :controllers => {:password => "passwords"}
+  root 'homes#index'
+# root to: "homes#index"
 
 
 end
