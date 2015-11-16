@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap_form'
 #to add users
 gem 'devise'
 #bootstrap gem
@@ -50,4 +51,4 @@ end
 
 group :production do
   gem 'rails_12factor'
-end 
+end

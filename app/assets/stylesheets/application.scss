@@ -13,6 +13,7 @@
 
  *= require_tree .
  *= require_self
+  *= require rails_bootstrap_forms
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
@@ -25,10 +26,9 @@ html, body{
   padding: 0;
 }
   body {
-  	background: #eee ;
+  	background: #ffe5ff;
 
   }
-
 
 .loginimg{
 background-image: url( couplegaming.jpg) ;
@@ -43,10 +43,10 @@ background-size: 100%;
 
 }
 
-.form-signin {
+.new_user {
   max-width: 380px;
   padding: 15px 35px 45px;
-  background-color: #fff;
+  background-color: #F8F8F8;
   border: 1px solid rgba(0,0,0,0.1);
   float: right;
   .form-signin-heading,
