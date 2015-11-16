@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users, :controllers => {:password => "passwords"}
-  root 'homes#index'
-# root to: "homes#index"
+  root 'pages#welcome'
 
+
+
+resources :users
+resources :profiles
 
 end
