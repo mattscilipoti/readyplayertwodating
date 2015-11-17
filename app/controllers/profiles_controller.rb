@@ -1,6 +1,20 @@
 class ProfilesController < ApplicationController
 
 def index
-end 
+end
+
+def create
+end
+
+
+def show
+end
+
+def edit
+end
+
+def delete
+  
+end
 
 end

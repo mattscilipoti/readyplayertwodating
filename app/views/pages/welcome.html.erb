@@ -6,21 +6,8 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class= "signinpage">
 
-<header>
-  <h1> welcome page </h1>
-  <nav class="fixedtopnav">
-    <ul>
-    <li><%= link_to 'Signup', new_user_registration_path %></li>
-    <li><%= link_to 'Login', new_user_session_path %></li>
-  </ul>
-</nav>
-  </header>
-
-  <% if current_user %>
-    <h2><%= link_to 'Signout', destroy_user_session_path, :method => :delete %></h2>
-  <% end %>
+welcome page
 
 
 <%= yield %>

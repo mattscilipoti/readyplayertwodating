@@ -27,10 +27,13 @@ html, body{
 }
   body {
   	background: #ffe5ff;
-
+  }
+  .logo{
+    font-weight: bold;
+    color: #ff0066;
   }
 
-#brandname:nth-child(3){
+#brandname{
   font-size: 25px;
   font-weight: bold;
   color: red !important;
