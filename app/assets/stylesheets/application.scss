@@ -26,7 +26,7 @@ html, body{
   padding: 0;
 }
   body {
-  	background: #ffe5ff;
+  	background: #ffe5f0;
   }
   .logo{
     font-weight: bold;
@@ -91,6 +91,32 @@ background-size: 100%;
 	  border-top-left-radius: 0;
 	  border-top-right-radius: 0;
 	}
+}
+
+//welcome page //
+
+#hralign{
+  top: 345px;
+  position: relative;
+}
+
+hr{
+  background-color: #B6B7B9;
+  height: 2px;
+  width:100%;
+  clear:both;
+}
+.bottomdiv{
+bottom: 18px;
+left: 50px;
+right: 50px;
+position: absolute;
+background-size: cover;
+// display:block;
+ // border: 2px solid black;
+ // width:100%;
+  margin:0 auto;
+  text-align: center;
 }
 
 // profile page //
