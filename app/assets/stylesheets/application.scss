@@ -27,9 +27,14 @@ html, body{
 }
   body {
   	background: #ffe5ff;
+
   }
 
-
+#brandname:nth-child(3){
+  font-size: 25px;
+  font-weight: bold;
+  color: red !important;
+}
 //login page //
 .loginimg{
 background-image: url( couplegaming.jpg) ;
