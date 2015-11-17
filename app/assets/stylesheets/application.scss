@@ -27,9 +27,10 @@ html, body{
 }
   body {
   	background: #ffe5ff;
-
   }
 
+
+//login page //
 .loginimg{
 background-image: url( couplegaming.jpg) ;
 background-repeat: no-repeat;
@@ -82,4 +83,14 @@ background-size: 100%;
 	  border-top-left-radius: 0;
 	  border-top-right-radius: 0;
 	}
+}
+
+// profile page //
+.profilepic{
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  border: 3px solid black;
+  top: 50px;
+  margin: 10px;
 }
