@@ -1,28 +1,13 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#Why this was created: 
+This was my second project that I created from my General Assembly class. 
+I decided to be overly ambitous and make a video game themed dating website. 
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+#Technologies used:
+I created this on rails, used postgresql for the database, and used heroku to host it
+
+#Unsolved problems:
+I'm working on getting all of the RESTful routes completed and all of the CRUD operations to work. 
+
