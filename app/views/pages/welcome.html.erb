@@ -1,27 +1,15 @@
 
-<div class="createprofile">
 
-<%= bootstrap_form_for (Profile.new) do |f| %>
-  <div class="field">
-<%= f.label 'create profile' %><br />
-</div>
-  <%= f.text_field :first_name, placeholder: "Enter your name" %>
-  <%= f.email_field :email, placeholder: 'name@example.com' %>
-  <%= f.text_field :body, placeholder: 'tell us about yourself' %>
-
-  <%= f.submit %>
-<% end %>
-</div>
-<div id="hralign">
-  <hr >
+<div class="centerdiv">
+   <h2>Welcome!</h2>
 </div>
 
   <div class=" colum-md-6 bottomdiv">
 
-    <%= image_tag 'keyboardlove.jpg', width:'80%', height: '200px' %>
+    <%= image_tag 'gbit.jpg', width:'80%', height: '230px' %>
   </div>
 
-
+<%= render 'sidebar' %>
 
 <%= yield %>
 

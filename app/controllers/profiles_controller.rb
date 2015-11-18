@@ -9,13 +9,13 @@ def new
 end
 
 def create
-  @profile = Profile.create!(profile_params(user: curent_user))
-  redirect_to profile_path
+  #  @profile = Profile.create!(profile_params([:id])
+   redirect_to profiles_path
 end
 
 
 def show
-   @profile = Profile.find(params[:id])
+   @profile = User.find(params[:id])
 end
 
 def edit
@@ -26,8 +26,8 @@ def delete
 end
 
 private
-def post_params
-  params.require(:profile).permit(:first_name, :body, :email)
+def profile_params
+  params.require(:profile).permit(:first_name, :body, :email, :gender, :id)
 end
 
 end

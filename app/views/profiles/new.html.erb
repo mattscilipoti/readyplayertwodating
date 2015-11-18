@@ -1,1 +1,28 @@
-proile new 
+
+<div class="createprofile">
+
+<%= bootstrap_form_for (Profile.new) do |f| %>
+
+<%= f.label 'create profile' %>
+
+  <%= f.text_field :first_name, placeholder: "Enter your name" %>
+  <%= f.email_field :email, placeholder: 'name@example.com' %>
+    <%= f.text_field :body, placeholder: 'tell us about yourself' %>
+    <%= f.select :gender,['Male', 'Female'] %>
+
+  <%= f.submit %>
+<% end %>
+</div>
+
+
+  <div class=" colum-md-6 bottomdiv">
+
+    <%= image_tag 'keyboardlove.jpg', width:'80%', height: '200px' %>
+  </div>
+
+
+
+<%= yield %>
+
+</body>
+</html>
