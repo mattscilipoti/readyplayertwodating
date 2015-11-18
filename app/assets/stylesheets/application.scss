@@ -93,6 +93,33 @@ background-size: 100%;
 	}
 }
 
+.testimonials{
+  position: absolute;
+  width: 320px;
+  height: 118px;
+  // border: 3px solid black;
+  bottom: 70px;
+  left: 210px;
+  margin: 10px;
+  background:#F8F8F8;
+  padding:5px; 
+}
+
+.testimonialpic{
+  position: absolute;
+  width: 175px;
+  height: 118px;
+  border: 3px solid black;
+  bottom: 70px;
+  left: 10px;
+  margin: 10px;
+background-image: url( person.jpg) ;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+
+
 //welcome page //
 
 #hralign{
@@ -112,9 +139,6 @@ left: 50px;
 right: 50px;
 position: absolute;
 background-size: cover;
-// display:block;
- // border: 2px solid black;
- // width:100%;
   margin:0 auto;
   text-align: center;
 }
