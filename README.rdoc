@@ -1,13 +1,13 @@
 == README
 
-#Why this was created: 
+==Why this was created: 
 This was my second project that I created from my General Assembly class. 
 I decided to be overly ambitous and make a video game themed dating website. 
 
 
-#Technologies used:
+==Technologies used:
 I created this on rails, used postgresql for the database, and used heroku to host it
 
-#Unsolved problems:
+==Unsolved problems:
 I'm working on getting all of the RESTful routes completed and all of the CRUD operations to work. 
 
