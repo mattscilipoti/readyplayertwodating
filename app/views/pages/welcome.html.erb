@@ -1,22 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>readyplaytwodating</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-welcome page
 
+<div class="createprofile">
 
+<%= bootstrap_form_for (Profile.new) do |f| %>
+  <div class="field">
+<%= f.label 'create profile' %><br />
+</div>
+  <%= f.text_field :first_name, placeholder: "Enter your name" %>
+  <%= f.email_field :email, placeholder: 'name@example.com' %>
 
+  <%= f.submit %>
+<% end %>
+</div>
 <div id="hralign">
   <hr >
 </div>
 
   <div class=" colum-md-6 bottomdiv">
 
-    <%= image_tag 'keyboardlove.jpg', width:'100%', height: '200px' %>
+    <%= image_tag 'keyboardlove.jpg', width:'80%', height: '200px' %>
   </div>
 
 
