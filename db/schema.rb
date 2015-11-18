@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20151117222236) do
     t.string  "email"
     t.string  "gender"
     t.string  "body"
-    t.integer "user_id"
+    t.integer "users_id"
   end
 
   create_table "users", force: :cascade do |t|

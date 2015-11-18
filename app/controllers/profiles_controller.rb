@@ -9,13 +9,8 @@ def new
 end
 
 def create
-  @profile = profile.new(params[:profile])
-  @profile.user = current_user
-       if @profile.save
-           redirect_to profiles_path,  :notice => "Your post was saved"
-       else
-           render "new"
-       end
+  @profile = Profile.create!(profile_params(user: curent_user))
+  redirect_to profile_path
 end
 
 
@@ -28,6 +23,11 @@ end
 
 def delete
 
+end
+
+private
+def post_params
+  params.require(:profile).permit(:first_name, :body, :email)
 end
 
 end

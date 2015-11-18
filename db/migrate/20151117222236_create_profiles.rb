@@ -5,7 +5,7 @@ class CreateProfiles < ActiveRecord::Migration
       t.string :email
       t.string :gender
       t.string :body
-      t.integer :user_id
+      t.references :users
 
     end
   end
