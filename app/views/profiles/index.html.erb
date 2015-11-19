@@ -10,5 +10,27 @@
 
   </div>
     <h2 id="h2nomargin">Trista's Profile </h2>
+
+    <div class="edit_profile">
+    <%= bootstrap_form_tag url: '/profiles' do |f| %>
+      <div class="field">
+        <%= f.text_field :First_Name, value: 'Trista' %>
+        <%= f.text_field :Gender, value: 'Female' %>
+      </div>
+
+        <div id="">
+          <%= f.text_area :Profile_Body, value: 'I like turtles'%>
+            </div>
+
+      <div class="actions">
+        <%= f.submit "Save" %>
+      </div>
+    <% end %>
+  </div>
+
 </div>
+
+
+
+
 <%= render 'sidebar' %>

@@ -50,8 +50,8 @@ p{
 
 #h2nomargin{
   margin:0px;
-  padding:0px;
-  text-align: center;
+  padding:5px;
+  text-align: left;
 }
 
 #brandname{
@@ -78,7 +78,6 @@ background-size: 100%;
   max-width: 380px;
   padding: 8px 35px 40px;
   background-color: #F8F8F8;
-  // border: 1px solid rgba(0,0,0,0.1);
   float: right;
   .form-signin-heading,
 
@@ -225,9 +224,34 @@ background-repeat: no-repeat;
 
 #upload{
   position: relative;
-  top: 200px; 
+  top: 200px;
 }
 
+.edit_profile {
+  max-width: 380px;
+  padding: 8px 35px 40px;
+  background-color: #F8F8F8;
+  margin-top: 100px;
+  float: right;
+  .form-signin-heading,
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 8px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+}
+
+#profile_bodyid{
+  height: 150px;
+
+}
 //sidebar //
 
 nav.sidebar-menu-collapsed {
