@@ -9,7 +9,7 @@ def new
 end
 
 def create
-  #  @profile = Profile.create!(profile_params([:id])
+   @profile = Profile.create!(profile_params)
    redirect_to profiles_path
 end
 
@@ -31,7 +31,7 @@ end
 
 private
 def profile_params
-  params.require(:profile).permit(:first_name, :body, :email, :gender, :id)
+  params.require(:profile).permit(:first_name, :body, :email, :gender)
 end
 
 end

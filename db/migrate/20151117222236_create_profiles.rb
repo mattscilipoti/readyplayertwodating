@@ -5,8 +5,7 @@ class CreateProfiles < ActiveRecord::Migration
       t.string :email
       t.string :gender
       t.string :body
-      t.references :users
-
+      t.references :user, index: true, foreign_key: true
     end
   end
 end
