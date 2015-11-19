@@ -128,7 +128,7 @@ background-size: 100%;
   bottom: 70px;
   left: 10px;
   margin: 10px;
-background-image: url( person.jpg) ;
+background-image: url( person.jpg);
 background-size: contain;
 background-repeat: no-repeat;
 }
@@ -175,6 +175,9 @@ background-size: cover;
   border: 3px solid black;
   top: 50px;
   float: right;
+  background-image: url( gamergirl.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .profilebody{
