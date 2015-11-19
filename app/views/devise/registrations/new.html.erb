@@ -1,21 +1,18 @@
 
 
-<div class="new_user">
-  <h2>Sign up</h2>
-<%= bootstrap_form_for((Profile.new)) do |f| %>
-  <%= devise_error_messages! %>
+<!-- <div class="new_user"> -->
 
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name))do |f| %>
+  <%= devise_error_messages! %>
+  <h2>Sign up</h2>
 
   <div class="field">
-      <%= f.text_field :first_name, placeholder: "Enter your name" %>
-        <%= f.text_field :body, placeholder: 'tell us about yourself' %>
-        <%= f.select :gender,['Male', 'Female'] %>
-    <!-- <%= f.label :email %><br /> -->
+    <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true %>
   </div>
 
   <div class="field">
-    <!-- <%= f.label :password %> -->
+    <%= f.label :password %>
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
@@ -23,7 +20,7 @@
   </div>
 
   <div class="field">
-    <!-- <%= f.label :password_confirmation %><br /> -->
+    <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 
@@ -32,4 +29,4 @@
   </div>
 
 <% end %>
-</div>
+<!-- </div> -->

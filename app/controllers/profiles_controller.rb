@@ -25,6 +25,10 @@ def delete
 
 end
 
+def update
+redirect_to profiles_path
+end
+
 private
 def profile_params
   params.require(:profile).permit(:first_name, :body, :email, :gender, :id)
