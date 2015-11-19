@@ -48,6 +48,12 @@ p{
   font-size: 18px;
 }
 
+#h2nomargin{
+  margin:0px;
+  padding:0px;
+  text-align: center;
+}
+
 #brandname{
   font-size: 25px;
   font-weight: bold;
@@ -215,6 +221,11 @@ background-size: cover;
 background-image: url( warrior.jpg) ;
 background-size: cover;
 background-repeat: no-repeat;
+}
+
+#upload{
+  position: relative;
+  top: 200px; 
 }
 
 //sidebar //
