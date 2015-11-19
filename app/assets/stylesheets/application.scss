@@ -113,7 +113,6 @@ background-size: 100%;
   position: absolute;
   width: 320px;
   height: 118px;
-  // border: 3px solid black;
   bottom: 70px;
   left: 210px;
   margin: 10px;
@@ -170,12 +169,23 @@ background-size: cover;
 
 // profile page //
 .profilepic{
-  // position: absolute;
+  // position: relative;
   width: 250px;
   height: 200px;
   border: 3px solid black;
   top: 50px;
+  float: right;
+}
+
+.profilebody{
+  height: 100%;
+  width: 800px;
+  // min-width: 500px;
+  border: 3px solid black;
   margin: 0 auto;
+  text-align: center;
+  background:#F8F8F8;
+
 }
 
 .welcomebody{
