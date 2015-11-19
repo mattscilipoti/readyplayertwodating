@@ -9,6 +9,7 @@ def new
 end
 
 def create
+   @profile.user = current_user
    @profile = Profile.create!(profile_params)
    redirect_to profiles_path
 end
