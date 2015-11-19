@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   root 'pages#welcome'
 
 
-get 'about' => 'pages#about'
+get 'about'  => 'pages#about'
 get 'help' => 'pages#help'
 
 resources :users
