@@ -43,13 +43,46 @@ color:  #333333;
 h3{
   margin: 0;
 }
-
+h4{
+  text-decoration: underline;
+}
 p{
   font-size: 18px;
 }
 .img-circle{
-  margin: 10px; 
+  margin: 10px;
 }
+
+.divider{
+    position:absolute;
+    // left:50%;
+    // top:10%;
+    // bottom:10%;
+    height:100%;
+    border-left:1px solid white;
+}
+.vertical {
+
+border-right: 2px solid white;
+// margin:0 auto;
+}
+
+#righttext {
+  float: right;
+  width: 220px;
+  background: #e5ccff;
+  margin: 10px;
+  padding: 5px;
+}
+
+#lefttext {
+  float: left;
+  width: 220px;
+  background: #e5ccff;
+  margin: 10px;
+  padding: 5px;
+}
+
 
 #h2nomargin{
   margin:0px;
