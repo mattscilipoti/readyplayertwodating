@@ -53,18 +53,8 @@ p{
   margin: 10px;
 }
 
-.divider{
-    position:absolute;
-    // left:50%;
-    // top:10%;
-    // bottom:10%;
-    height:100%;
-    border-left:1px solid white;
-}
-.vertical {
-
-border-right: 2px solid white;
-// margin:0 auto;
+.border-right {
+    border-right: 1px solid black;
 }
 
 #righttext {
