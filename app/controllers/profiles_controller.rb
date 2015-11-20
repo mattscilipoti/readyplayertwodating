@@ -20,7 +20,7 @@ def show
 end
 
 def edit
-  @profile = current_user.profile
+  # @profile = current_user.profile
 end
 
 def delete
@@ -28,7 +28,7 @@ def delete
 end
 
 def update
-redirect_to profiles_path
+# redirect_to profiles_path
 end
 
 private
