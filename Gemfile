@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+# mms: what does "bootstrap_form" have over simple_form (which was recommended by instructors)
 gem 'bootstrap_form'
 #to add users
 gem 'devise'
